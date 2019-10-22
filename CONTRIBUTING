@@ -1,0 +1,34 @@
+Pautas de Contribución.
+
+Se ha generado una plantilla general para el sitio.  Las páginas del menú "Lecturas" que faltan por crear presentan la siguiente estrcutura:
+<section>
+  <h3>Página en blanco para el texto del tema GitHub</h3>
+  <article>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  <div class="micontenedor">
+    <div class="side1">
+        <h5>Título para esta imagen o video</h5>
+        imagen o video a incluir.
+      </div>
+      <div class="side2">
+        <h5>Título para esta imagen o video</h5>
+        imagen o video a incluir.
+      </div>
+    </div>
+  </article>
+</section>
+
+Esta sección es donde debe incluirse el contenido.  En la etiueta <h3> irá el título y dentro de <arcicle> el contenido correspondiente.
+Si se requiere dentro de <article> incluir contenido en dos columnas, se incluye un div con la clase contenedor (class="micontenedor"),
+y dentro de este <div> dos etiquetas <div> con la clase side1 y side2 respectivamente, tal como puede verse en al estructura.  Esta se
+utilzia específicamente para mostrar impagenes o videos.
+
+Se requiere el diseño de las actividades a montar en la sección Actividades.  En la guía se recomienda trabajar con educaplay 
+(https://es.educaplay.com/).  Debenos craerlas desde cero.
+
+Se requiere que cada uno actualice o cargue en el foro su imagen de perfil para poder crear lo correspondiente a la sección Autores.
