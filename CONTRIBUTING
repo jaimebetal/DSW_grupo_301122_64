@@ -1,6 +1,6 @@
 Pautas de Contribución.
 
-Se ha generado una plantilla general para el sitio.  Las páginas del menú "Lecturas" que faltan por crear presentan la siguiente estrcutura:
+Se ha generado una plantilla general para el sitio. Las páginas del menú "Lecturas" que faltan por crear presentan la siguiente estructura:
 <section>
   <h3>Página en blanco para el texto del tema GitHub</h3>
   <article>
@@ -23,12 +23,12 @@ Se ha generado una plantilla general para el sitio.  Las páginas del menú "Lec
   </article>
 </section>
 
-Esta sección es donde debe incluirse el contenido.  En la etiueta <h3> irá el título y dentro de <arcicle> el contenido correspondiente.
-Si se requiere dentro de <article> incluir contenido en dos columnas, se incluye un div con la clase contenedor (class="micontenedor"),
-y dentro de este <div> dos etiquetas <div> con la clase side1 y side2 respectivamente, tal como puede verse en al estructura.  Esta se
-utilzia específicamente para mostrar impagenes o videos.
+Esta sección es donde debe incluirse el contenido. En la etiqueta <h3> irá el título y dentro de <article> el contenido correspondiente.
+Si se requiere dentro de <article> incluir contenido en dos columnas, se incluye un <div> con la clase contenedor (class="micontenedor"),
+y dentro de este <div> dos etiquetas <div> con la clase side1 y side2 respectivamente, tal como puede verse en al estructura. Esta se
+utiliza específicamente para mostrar imágenes o videos.
 
-Se requiere el diseño de las actividades a montar en la sección Actividades.  En la guía se recomienda trabajar con educaplay 
-(https://es.educaplay.com/).  Debenos craerlas desde cero.
+Se requiere el diseño de las actividades a montar en la sección Actividades. En la guía se recomienda trabajar con educaplay 
+(https://es.educaplay.com/). Debemos crearlas desde cero.
 
 Se requiere que cada uno actualice o cargue en el foro su imagen de perfil para poder crear lo correspondiente a la sección Autores.
