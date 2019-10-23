@@ -46,6 +46,7 @@ aside{
 article{
    padding: 10px;
 }
+
 .contenedor{
 	display: grid;
 	grid-template-columns: 2fr 1fr;
