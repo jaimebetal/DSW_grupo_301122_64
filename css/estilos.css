@@ -157,7 +157,7 @@ https://desfaziendoentuertos.prepress.es/menu-desplegable-css/
    
 nav ul ul li {
 	float:none;
-	width:150px
+	width:150px;
 }
 
 /* enlaces de los items del menu desplegable */
@@ -208,7 +208,6 @@ footer{
       font-weight:400;
       font-size:15px;
       padding:10px;
-      letter-spacing:1px;
    }
    
    /* items del menu */
@@ -241,7 +240,7 @@ footer{
    
    #menu ul ul li {
       float:none;
-      width:100px;
+      width:150px;
    }
    
    /* enlaces de los items del menu desplegable */
