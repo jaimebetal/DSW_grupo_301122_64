@@ -59,6 +59,8 @@ article{
    grid-row-gap: 10px; 
 }
 
+
+
 nav{
     /*Bordes redondeados*/
     -webkit-border-radius:10px;/*Para chrome y Safari*/
