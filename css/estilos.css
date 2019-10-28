@@ -21,6 +21,19 @@ header{
 img{
    border-radius: 5px;
 }
+
+.imgRedonda {
+   width:180px;
+   height:180px;
+   border-radius:160px;
+   border:5px solid  #005883;
+}
+
+.imgRedonda:hover {
+   border:5px solid #F47920;
+   transform: scale(1.03);
+}
+
 section{
    box-shadow: 2px 2px 10px rgba(0,0,0,.25);
    padding: 5px;
@@ -59,6 +72,24 @@ article{
    grid-row-gap: 10px; 
 }
 
+.micontenedorautor{
+	display: grid;
+   grid-template-columns: 1fr 2fr;
+   grid-column-gap: 10px;
+   grid-row-gap: 10px; 
+   margin-bottom: 25px;
+}
+
+.datosautor{
+   margin-bottom: 20px;
+   margin-top: 20px;
+}
+
+.linea{
+   height: 10px;
+   border-color:#F47920;
+   line-height: 4px;
+}
 
 
 nav{
@@ -265,14 +296,12 @@ footer{
       overflow: scroll;
   }
 
+  .twitter-timelinep {
+      background-color: #292F33;
+      border-radius: 5px;
+      overflow: scroll;
+   }
 
-
-
-
-
-
-
-
-
-
-  
+   .personal_twitter{
+      margin-top: 20px;;
+   }
