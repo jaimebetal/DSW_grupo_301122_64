@@ -45,7 +45,7 @@
 						</ul>
 						<!-- end menu desplegable -->
 					</li>
-					<li><a href="#">Autores</a></li>
+					<li><a href="../Autores/Autores.html">Autores</a></li>
 				</ul>
 				<!-- end menu -->
 			<div style="float: right" id="sfcsnub5b16dxtwp4l2g4crd2muelc6qsm4"></div>
@@ -61,32 +61,45 @@
 			<section>
 				<h3>GitHub</h3>
 				<article>
-					<h4>Que es:</h4>
+					<h4>Qué es:</h4>
 					Es una plataforma de desarrollo colaborativo, donde podemos alojar proyectos utilizando
-					el sistema de control de versiones Git, basicamente es utilizado para la creacion
-					del codigo fuente de alguna aplicacion, pagina, blog etc... 
+					el sistema de control de versiones Git, basicamente es utilizado para la creación
+					del código fuente de alguna aplicación, página, blog etc... 
 					Estos proyectos se almacenan en unos repositorios, que es un directorio donde se guardan 
 					los archivos del proyecto, este puede estar ubicado en el almacenamiento GitHub 
-					o en tu propio ordenador, puedes almacenar archivos de codigo, imagenes, audios y muchas 
-					cosas mas. 
+					o en tu propio ordenador, puedes almacenar archivos de código, imágenes, audios y muchas 
+					cosas más. 
 					<br></br>
 					<div class="micontenedor">
 						<div class="side1">
 							<h5>Como usar GitHub</h5>
-							<iframe width="320" height="300" src="https://www.youtube.com/embed/3XlZWpLwvvo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							<iframe width="100%"  src="https://www.youtube.com/embed/3XlZWpLwvvo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 						</div>
 						<div class="side2">
 							<h5>Como instalar GitHub</h5>
-							<iframe width="320" height="300" src="https://www.youtube.com/embed/IW28zJc7BN0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							<iframe width="100%" src="https://www.youtube.com/embed/IW28zJc7BN0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 						</div>
 					</div>
+					<br>
+					<h3 style="text-align: center;">Comprender el flujo de GitHub</h3>
+					<div class="texto_main">
+						<h4>Crear una rama (branch)</h4>
+						Cuando trabaje en un proyecto, tendrá un montón de características o ideas diferentes en progreso en cualquier momento
+						dado, algunas de las cuales están listas para funcionar y otras no. La ramificación existe para ayudarlo a administrar
+						este flujo de trabajo.
+					</div>
+					<div class="texto_main">
+						Cuando crea una rama en su proyecto, está creando un entorno en el que puede probar nuevas ideas. Los cambios que
+						realice en una rama no afectan a la rama maestra, por lo que puede experimentar y confirmar los cambios, con la
+						seguridad de que su rama no se fusionará hasta que esté lista para ser revisada por alguien con quien esté
+						colaborando.
+					</div>
 					<div class="micontenedor">
-							<div class="side1">
-								<h5>Caracteristicas del GitHub</h5>
-								Cada proyecto es una pagina web<br>
-								Funciona como una red social<br>
-								Herramienta util para grupo de programadores<br>
-								Gestor de proyectos
+							<div class="side1" style="text-align: justify;">
+								La ramificación es un concepto central en Git, y todo el flujo de GitHub se basa en él. Solo hay una regla:
+								cualquier cosa en la rama maestra siempre se puede implementar.
+								Debido a esto, es extremadamente importante que su nueva rama se cree fuera de la rama maestra cuando se trabaja en una
+								función o una solución.
 							</div>
 							<div class="side2">
 								<img src="../img/Caracteristica1.png" alt="" width="390" height="200">
@@ -95,22 +108,42 @@
 								</font>
 							</div>
 					</div>
-					<div class="micontenedor">
-						    <div class="side5">
-						    	<img src="../img/Caracteristica2.jpg" alt="" width="390" height="200">
-						    	<font size="1">https://bbvaopen4u.com/es/actualidad/por-que-github-es-el-mejor-amigo-de-los-desarrolladores-de-apis</font>
-						    </div>
-						    <div class="side6">
-						    	<img src="../img/Caracteristica3.jpg" alt="" width="390" height="200">
-								<font size="1">https://semalt.com/es/qa/8305-scrappers-del-sitio.htm</font>
-							</div>
-						</div> 
+					<br>
+					<div class="texto_main">
+						<h4>Agregar confirmaciones (commits)</h4>
+						Una vez que se ha creado su rama, es hora de comenzar a hacer cambios. Cada vez que agrega, edita o elimina un archivo,
+						realiza un commit y los agrega a su rama. Este proceso de agregar confirmaciones realiza un seguimiento de su progreso a
+						medida que trabaja en una rama de características.	
+					</div>
+					<div class="texto_main">
+						<h4>Abrir una solicitud de extracción (Pull Request)</h4>
+						Las solicitudes de extracción inician discusiones sobre sus confirmaciones. Debido a que están estrechamente integrados
+						Una vez que se ha abierto una solicitud de extracción, la persona o el equipo que revisa sus cambios puede tener
+						preguntas o comentarios. Tal vez el estilo de codificación no coincida con las pautas del proyecto, al cambio faltan
+						pruebas unitarias, o tal vez todo se vea genial y los accesorios estén en orden. Las solicitudes de extracción están
+						diseñadas para fomentar y capturar este tipo de conversación.
+					</div>
+
+					<div class="texto_main">
+						<h4>Desplegar (deploy)</h4>
+						Con GitHub, se puede implementar desde una rama para la prueba final en producción antes de fusionarse con master.
+						Una vez que su solicitud de extracción ha sido revisada y la rama pasa sus pruebas, puede implementar sus cambios para
+						verificarlos en producción. Si su sucursal causa problemas, puede revertirla implementando el maestro existente en
+						producción.
+					</div>	
+					
+					<div class="texto_main">
+							<h4>Unir (merge)</h4>
+							Ahora que sus cambios se han verificado en producción, es hora de fusionar su código en la rama maestra.
+							
+							Una vez fusionadas, las solicitudes de extracción conservan un registro de los cambios históricos en su código. Debido a
+							que pueden buscarse, permiten que cualquiera retroceda en el tiempo para comprender por qué y cómo se tomó una decisión.
+						</div>						
 				</article>
 			</section>
-			<aside>
-
+			<aside style="height: 1680px;">
 				<article class="tiwtter_main">
-					<a class="twitter-timeline" href="https://twitter.com/UniversidadUNAD?ref_src=twsrc%5Etfw">
+					<a class="twitter-timeline"  href="https://twitter.com/UniversidadUNAD?ref_src=twsrc%5Etfw">
 						Tweets by UniversidadUNAD</a>
 					<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 				</article>
