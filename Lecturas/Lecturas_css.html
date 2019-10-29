@@ -5,6 +5,8 @@
 	<title>OVI - Diseño de Sitios WEB</title>
 	<link rel="stylesheet" type="text/css" href="../css/estilos.css">
 	<link rel="stylesheet" type="text/css" href="../css/bootstrap/css/bootstrap.css">
+	<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 </head>
 <body>
 	<header>
@@ -13,28 +15,29 @@
 	</header>
 	<!-- start nav -->
 	<nav id="menu">
-		<!-- start menu -->
-		<ul>
-			<li><a href="../index.html">Inicio</a></li>
-			<li><a href="#">Lecturas</a>
+	<!-- start menu -->
+	<ul>
+			<li><a href="../index.html"><i class="fas fa-home fa-lg fa-fw"></i> Inicio</a></li>
+			<li><a href="#"><i class="fas fa-book fa-lg fa-fw"></i> Lecturas</a>
 				<!-- start menu desplegable -->
 				<ul>
-					<li><a href="Lecturas_git.html">Git</a></li>
-					<li><a href="Lecturas_gitHub.html">GitHub</a></li>
-					<li><a href="Lecturas_html.html">Html</a></li>
-					<li><a href="Lecturas_css.html">Css</a></li>
+					<li><a href="Lecturas_git.html"><i class="fab fa-git fa-lg fa-fw"></i> Git</a></li>
+					<li><a href="Lecturas_gitHub.html"><i class="fab fa-github fa-lg fa-fw"></i> GitHub</a></li>
+					<li><a href="Lecturas_html.html"><i class="fab fa-html5 fa-lg fa-fw"></i> Html</a></li>
+					<li><a href="Lecturas_css.html"><i class="fab fa-css3-alt fa-lg fa-fw"></i> Css</a></li>
 				</ul>
 				<!-- end menu desplegable -->
 			</li>
-			<li><a href="#">Multimedia</a>
+			
+			<li><a href="#"><i class="fas fa-file-video fa-lg fa-fw"></i> Multimedia</a>
 				<!-- start menu desplegable -->
 				<ul>
-					<li><a href="../Multimedia/Multimedia_1.html">Mutimedia HTML</a></li>
-					<li><a href="../Multimedia/Multimedia_1.html">Mutimedia CSS</a></li>
+					<li><a href="../Multimedia/Multimedia_1.html">Multimedia HTML</a></li>
+					<li><a href="../Multimedia/Multimedia_2.html">Multimedia CSS</a></li>
 				</ul>
 				<!-- end menu desplegable -->
 			</li>
-			<li><a href="#">Actividades</a>
+			<li><a href="#"><i class="fas fa-puzzle-piece fa-lg fa-fw"></i> Actividades</a>
 				<!-- start menu desplegable -->
 				<ul>
 					<li><a href="../Actividades/Actividades_SL.html">Sopa de Letras</a></li>
@@ -43,7 +46,7 @@
 				</ul>
 				<!-- end menu desplegable -->
 			</li>
-			<li><a href="../Autores/Autores.html">Autores</a></li>
+			<li><a href="../Autores/Autores.html"><i class="fas fa-users fa-lg fa-fw"></i> Autores</a></li>
 		</ul>
 		<!-- end menu -->
 		<div style="float: right" id="sfcsnub5b16dxtwp4l2g4crd2muelc6qsm4"></div>
@@ -55,50 +58,72 @@
 	</nav>
 	<!-- end nav -->
 	<section class="contenedor">
-		<section><h3>LOS CSS</h3>
+		<section><h3>CSS - Hojas de estilo en cascada</h3>
 				<article>
-					Los Css (Hoja de estilo en cascada) es un lenguaje de diseño grafico, para definir y crear
-					la presentacion de un documento estructurado escrito en lenguaje de marcado, es muy usado
+					<div class="texto_main">
+					Las Hojas de estilo en cascada (<i style="font-style: italic;">Cascading Style Sheets</i>) 
+					es un lenguaje que describe la presentación de los documentos estructurados en hojas de estilo para diferentes métodos
+					de interpretación, es decir, describe como se va a mostrar un documento en pantalla, por impresora, por voz (cuando la
+					información es pronunciada a través de un dispositivo de lectura) o en dispositivos táctiles basados en Braille.
+					 Se usa para definir y crear
+					la presentación de un documento estructurado escrito en lenguaje de marcado, es muy usado
 					para establecer el diseño visual de los documentos web.
+					<a href="https://www.masadelante.com/faqs/css" target="_blank">(masadelante.com, 2019).</a>
 					<br></br>
-					CSS es una tecnologia usada por muchos sitios web para crear paginas visualmente atractivas
-					interfaces de usuario, aplicativos moviles, sirve para darle mas vida a un sitio web.
-					Estos CSS estan diseñados principalmente para marcar la separacion del contenido del documento 
-					y la forma de presentacion de este, tanto como las capas, los colores y las fuentes esto busca 
-					mejorar la accesibilidad y flexibilidad en la presentacion de un sitio.
+					CSS es una tecnología usada por muchos sitios web para crear páginas visualmente atractivas
+					interfaces de usuario y/o aplicativos móviles.  Sirve para darle más vida a un sitio web.
+					Estos CSS están diseñados principalmente para marcar la separación del contenido del documento 
+					y la forma de presentación de éste, tanto como las capas, los colores y las fuentes, buscando  
+					mejorar la accesibilidad y flexibilidad en la presentación de un sitio.
+					<a href="https://es.wikipedia.org/wiki/Hoja_de_estilos_en_cascada" target="_blank">(wikipedia.org, 2019).</a>
 					<br></br>
-					En resumen, los CSS son los que mejoran nuestro sitio web, que permite que el usuario se 
-					maraville ya sean por sus colores, fuentes o hasta los efectos que estos pueden tener, los CSS 
-					son esenciales al momento de programar una pagina web, una aplicacion, entre otros. 
-					<br></br>
+					<h4>¿Cómo funciona?</h4>
+					El lenguaje CSS se basa en una serie de reglas que rigen el estilo de los elementos en los documentos estructurados, y
+					que forman la sintaxis de las hojas de estilo. Cada regla consiste en un selector y una declaración, esta última va
+					entre corchetes y consiste en una propiedad o atributo, y un valor separados por dos puntos.
+					<br>
+					<strong>Selector: </strong>
+					 especifica que elementos HTML van a estar afectados por esa declaración, de manera que hace de enlace entre
+					la estructura del documento y la regla estilística en la hoja de estilo.
+					<br>
+					<strong>Declaración: </strong>
+					va entre corchetes y especifica la información de estilo que indica cómo se va a ver el selector. En caso de
+					que haya más de una declaración se usa punto y coma para separarlas.
+					<br>
+					<strong>Propiedad o Atributo y Valor: </strong>
+					Dentro de la declaración, la Propiedad o Atributo define la interpretación del elemento asignándosele un cierto Valor,
+					que puede ser color, alineación, tipo de fuente, tamaño..., es decir, especifican qué aspecto del selector se va a
+					cambiar.
+					<a href="https://www.masadelante.com/faqs/css" target="_blank">(masadelante.com, 2019).</a>
+					</div>
+					<br>
 					Ejemplo:
 					<br>
 					<img src="../img/css1.png" alt="" width="480" height="320">
-					<font size="1">https://misapuntesyacimientos.wordpress.com/2016/02/19/efectuando-enlaces-a-hojas-de-estilo-en-cascada-css/</font>
+					<div class="referencias_main">
+							[britolw] (2016).  Definición de CSS [Archivo de Imagen]. Obtenido de
+							https://misapuntesyacimientos.wordpress.com/2016/02/19/efectuando-enlaces-a-hojas-de-estilo-en-cascada-css/</font>
+					</div>
 					<br>
 					<br>
-					<div style="padding-top: 5px;" class="micontenedor">
-						<div class="side1">
-							<h5>Como Aplicar Los CSS a una pagina web</h5>
-							<iframe width="360" height="280" src="https://www.youtube.com/embed/kAhGO6IAQFg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					<div style="padding-top: 5px;">
+						<h5>Como Aplicar Los CSS a una pagina web</h5>
+						<iframe width="100%" height="320px" src="https://www.youtube.com/embed/kAhGO6IAQFg" frameborder="0"
+							allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						<div class="referencias_main">
+							[codigofacilito]. (2012). Aplicar CSS a una página web [Archivo de Video]
+							Obtenido de: https://youtu.be/kAhGO6IAQFg
 						</div>
-						<div class="side2">
-							<h5>Curso para Usar los CSS adecuadamente</h5>
-							<iframe width="360" height="280" src="https://www.youtube.com/embed/24gNhTcy6pw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-						</div>
-				    </div>
-						<section class="contenedor">
-							<section>
-						<div class="side3" align="center">
-							<h5>Adicionales</h5>
-							<iframe width="690" height="250" src="https://www.youtube.com/embed/R1OAyt33wpw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-						</div>
-						    </section>
-						</section>
+					</div>
+					<div>
+						<h5 style="text-align: center; margin-top: 30px;">Adicionales</h5>
+						<iframe width="100%" height="320px" src="https://www.youtube.com/embed/R1OAyt33wpw" frameborder="0"
+							allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
 				</article>
 			</section>
 			<!--info y modificacion Jhon Muñoz-->
-		<aside>
+		<aside style=" height: 2000;">
 
 			<article class="tiwtter_main">
 				<a class="twitter-timeline" href="https://twitter.com/UniversidadUNAD?ref_src=twsrc%5Etfw">

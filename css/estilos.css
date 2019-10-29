@@ -178,8 +178,13 @@ nav ul ul {
   padding-bottom: 20px;
 }
 
+.mietiqueta{
+   font-family: 'Courier New', Courier, monospace;
+   font-weight: 700;
+   background-color: #def;
+}
 .referencias_main{
-   font-size: small;
+   font-size: x-small;
    padding-bottom: 5px;
 }
 

@@ -1,11 +1,13 @@
-<!doctype= html>
+<!DOCTYPE html>
 	<html lang="es">
 
 	<head>
 		<meta charset="utf-8">
 		<title>OVI - Diseño de Sitios WEB</title>
+		<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 		<link rel="stylesheet" type="text/css" href="../css/estilos.css">
-		<link rel="stylesheet" type="text/css" href="../css/bootstrap/css/bootstrap.css">
+		<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 	</head>
 
 	<body>
@@ -17,18 +19,19 @@
 		<nav id="menu">
 			<!-- start menu -->
 			<ul>
-				<li><a href="../index.html">Inicio</a></li>
-				<li><a href="#">Lecturas</a>
+				<li><a href="../index.html"><i class="fas fa-home fa-lg fa-fw"></i> Inicio</a></li>
+				<li><a href="#"><i class="fas fa-book fa-lg fa-fw"></i> Lecturas</a>
 					<!-- start menu desplegable -->
 					<ul>
-						<li><a href="Lecturas_git.html">Git</a></li>
-						<li><a href="Lecturas_gitHub.html">GitHub</a></li>
-						<li><a href="Lecturas_html.html">Html</a></li>
-						<li><a href="Lecturas_css.html">Css</a></li>
+						<li><a href="Lecturas_git.html"><i class="fab fa-git fa-lg fa-fw"></i> Git</a></li>
+						<li><a href="Lecturas_gitHub.html"><i class="fab fa-github fa-lg fa-fw"></i> GitHub</a></li>
+						<li><a href="Lecturas_html.html"><i class="fab fa-html5 fa-lg fa-fw"></i> Html</a></li>
+						<li><a href="Lecturas_css.html"><i class="fab fa-css3-alt fa-lg fa-fw"></i> Css</a></li>
 					</ul>
 					<!-- end menu desplegable -->
 				</li>
-				<li><a href="#">Multimedia</a>
+				
+				<li><a href="#"><i class="fas fa-file-video fa-lg fa-fw"></i> Multimedia</a>
 					<!-- start menu desplegable -->
 					<ul>
 						<li><a href="../Multimedia/Multimedia_1.html">Multimedia HTML</a></li>
@@ -36,7 +39,7 @@
 					</ul>
 					<!-- end menu desplegable -->
 				</li>
-				<li><a href="#">Actividades</a>
+				<li><a href="#"><i class="fas fa-puzzle-piece fa-lg fa-fw"></i> Actividades</a>
 					<!-- start menu desplegable -->
 					<ul>
 						<li><a href="../Actividades/Actividades_SL.html">Sopa de Letras</a></li>
@@ -45,7 +48,7 @@
 					</ul>
 					<!-- end menu desplegable -->
 				</li>
-				<li><a href="../Autores/Autores.html">Autores</a></li>
+				<li><a href="../Autores/Autores.html"><i class="fas fa-users fa-lg fa-fw"></i> Autores</a></li>
 			</ul>
 			<!-- end menu -->
 			<div style="float: right" id="sfcsnub5b16dxtwp4l2g4crd2muelc6qsm4"></div>
@@ -59,75 +62,106 @@
 		<!-- end nav -->
 		<section class="contenedor">
 			<section>
-				<h3>HTML</h3>
+				<h3 style="text-align: center;">HTML</h3>
 				<article>
-					Muchos de nosotros conocemos HTML como un lenguaje de programacion, pero en realidad no lo es
-					sus siglas nos dice que es un Lenguaje de marcas de hipertexto, que hace referencia al lenguaje 
-					de marcado, para la elaboracion de paginas web.
-					Es un estandar que conecta la elaboracion de paginas web con sus diferentes versiones, que define 
-					una estructura basica y un codigo, que se denomina "codigo HTML" donde se permite alojar 
-					en forma de codigo imagenes, videos, juegos, archivos, texto etc... este estandar esta a cargo de 
-					World Wide Web (WWW) organizacion dedicada a la estandarizacion de casi todas las tecnologias 
-					ligadas a la web.
-					<br></br>
-					HTML se escribe en forma de etiquetas rodeadas de corchetes angulares <,> tambien puede escribir
-					hasta un cierto punto, la apariencia de un documento, puede incluir o hacer referencia a un tipo
-					de programa llamado script. El cual puede afectar el comportamiento de navegadores web y otros 
-					procesadores de HTML.
-					<br></br>
-					<h5>Elementos</h5>
-					Los elementos son la estructura basica de HTML estos tienen 2 propiedades basicas, atributos y contenido
-					cada uno de estos dos tiene ciertas restricciones para que sea valido en el codigo HTML, un elemento
-					generalmente tiene una etiqueta de inicio y una etiqueta de cierre. 
-					<br></br>
-					Un ejemplo de etiqueta de inicio seria: <"etiqueta-de-inicio"> y la de cierre: <"/etiqueta-de-inicio">
-					<br></br> 
+					<div class="texto_main">
+					Muchos de nosotros conocemos HTML como un lenguaje de programación, pero en realidad no lo es.
+					Se trata de la siglas que corresponden a HyperText Markup Language, es decir, Lenguaje de Marcas de Hipertexto, que hace
+					referencia al lenguaje para la elaboración de páginas web. HTML sirve para indicar como va ordenado el contenido de una
+					página web. Esto lo hace por medio de las marcas de
+					hipertexto las cuales son etiquetas conocidas en inglés como tags.
+					<a href="https://codigofacilito.com/articulos/que-es-html" target="_blank">(codigofacilito.com, 2015).</a>
+					<br><br>
+					
+					HTML es un lenguaje formado por elementos, los cuales
+					nos ayudan a estructurar y dar significado a las partes de un documento HTML, estos elementos a su vez están
+					conformados por contenido, etiquetas y atributos.
+					
+
+					Las etiquetas nos sirven para delimitar el inicio y el fin de un elemento
+					<span class="mietiqueta">&lt;&gt</span>, por ejemplo para indicar el inicio de un párrafo
+					 <span class="mietiqueta">&lt;p&gt</span>, y la etiqueta de cierre <span class="mietiqueta">&lt;/p&gt</span>  para indicar el fin de un párrafo.
+					 <a href="https://devcode.la/blog/que-es-html/" target="_blank">(devcode.la, 2019).</a>
+					<br><br>
+					
 					<img src="../img/html1.png" alt="" width="450" height="210">
 					<font size="1">https://es.wikipedia.org/wiki/HTML#/media/Archivo:Etiquetas_en_HTML.png</font>
 					<br></br>
+
 					<h5>Etiquetas</h5>
-					A continuacion se nombran algunas de las etiquetas utilizadas en codigo HTML, cabe tener en cuenta
-					que un codigo de HTML se debe iniciar con la etiqueta <"html"> y terminar con esta misma <"/html">
+					A continuación se nombran algunas de las etiquetas utilizadas en código HTML. Cabe tener en cuenta
+					que un código de HTML se debe iniciar con la etiqueta <span class="mietiqueta">&lt;html&gt</span> y terminar con esta
+					misma <span class="mietiqueta">&lt;/html&gt</span>
 					<br></br>
-					<"html"> Define el inicio del documento HTML, lo que le indica al navegador que lo que viene 
-					a continuacion debe ser interpretado como codigo HTML. en teoria lo que define el tipo de documento
-					es el DOCTYPE que significa el tag de raiz. 
+
+					<span class="mietiqueta">&lt;html&gt</span> Define el inicio del documento HTML, lo que le indica al navegador que lo
+					que viene
+					a continuación debe ser interpretado como codigo HTML. En teoría lo que define el tipo de documento
+					es el DOCTYPE que significa el tag de raiz.
 					<br></br>
-					<"script"> incrusta un script en una web o llama a uno mediante un Src="url del script".
+
+					<span class="mietiqueta">&lt;script&gt</span> incrusta un script en una web o llama a uno mediante un <span
+						class="mietiqueta">src="url-del-script</span>".
 					<br></br>
-					<"head"> Define la cabecera del documento, esta cabecera suele contener informacion que no se muestra
-					al usuario, dentro de esta podemos encontrar otras etiquetas como:
+
+					<span class="mietiqueta">&lt;head&gt</span> Define la cabecera del documento, esta cabecera suele contener información
+					que no se muestra
+					al usuario.  Dentro de esta podemos encontrar otras etiquetas como:
 					<br></br>
-					<"title"> que define el titulo de la pagina, <"link"> que vincula el sitio para hojas de estilo o iconos,
-					<"style"> que es para colocar estilos internos a la pagina ya sean usando CSS.
+
+					<span class="mietiqueta">&lt;title&gt</span> que define el título de la página, <span
+						class="mietiqueta">&lt;link&gt</span> que vincula el sitio para hojas de estilo o íconos,
+					<span class="mietiqueta">&lt;style&gt</span> que es para colocar estilos internos a la página usando CSS.
 					<br></br>
-					<"body"> define el contenido principal o cuerpo del documento.
+
+					<span class="mietiqueta">&lt;body&gt</span>define el contenido principal o cuerpo del documento.
 					<br></br>
-					<"article"> representa una composicion auto-contenida en un documento, pagina, aplicacion o en el sitio
-					que se destina para distribuir de forma independiente.
+
+					<span class="mietiqueta">&lt;article&gt</span> representa una composición auto-contenida en un documento, página,
+					aplicación o en el sitio que se destina para distribuir de forma independiente.
 					<br></br>
-					Otro tipo de etiquetas que nos ayudan mucho en nuestro diseño son: <"h1 a h6"> para encabezados o titulos.
-					<"table"> define una tabla, <"tr"> fila de una tabla. <"a"> define un hipervinculo o enlace. <"img"> agregar
-					imagenes. <"li">,"<"ol">,<"ul"> son etiquetas para listar. Y asi existen aun mas etiquetas para 
-					diferentes usos, ya depende de cada programador, darle el uso necesario y correspondiente. 
-					<br></br>
-					<img src="../img/html2.png" alt="" width="450" height="280">
-					<font size="1">https://es.wikipedia.org/wiki/HTML#/media/Archivo:HTML_source_code_example.svg</font>
-					<br></br>
-					<div class="micontenedor">
-						<div class="side1">
-							<h5>Introduccion a HTML</h5>
-							<iframe width="370" height="280" src="https://www.youtube.com/embed/fG7rCJRzZMs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-						</div>
-						<div class="side2">
-							<h5>Curso basico de HTML desde cero</h5>
-							<iframe width="370" height="280" src="https://www.youtube.com/embed/cqMfPS8jPys" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-						</div>
+
+					Otro tipo de etiquetas que nos ayudan mucho en nuestro diseño son: <span class="mietiqueta">&lt;h1&gt</span> a <span
+						class="mietiqueta">&lt;h6&gt</span> para encabezados o títulos.
+					<span class="mietiqueta">&lt;table&gt</span> define una tabla, <span class="mietiqueta">&lt;tr&gt</span>, <span class="mietiqueta">&lt;td&gt</span> fila y columna de una
+					tabla. <span class="mietiqueta">&lt;a&gt</span> define un hipervínculo o enlace. <span
+						class="mietiqueta">&lt;img&gt</span> agregar
+					imágenes. <span class="mietiqueta">&lt;li&gt</span>,<span class="mietiqueta">&lt;ol&gt</span>,<span
+						class="mietiqueta">&lt;ul&gt</span> son etiquetas para listar.  Existen otras etiquetas que
+						 permiten estructurar el docuento y que depende del diseño a daásee al sitio, el programador o diseñador 
+						 determinará o no su uso.
+					<a href="https://es.wikipedia.org/wiki/HTML" target="_blank">(wikipedia.org, 2019).</a>
+					<br>
+				</div>
+				<div class="micontenedor">
+					<div class="side1">
+						<img src="../img/html2.png">
 					</div>
+					<div class="side2">
+						<img src="../img/estructura-web.png" alt="" width="100%">
+					</div>
+					<div class="referencias_main">
+							https://es.wikipedia.org/wiki/HTML#/media
+							/Archivo:HTML_source_code_example.svg
+					</div>
+					<div class="referencias_main">
+							vinkula.com. (s.f). O.V.I. Estructura del código HTML5 [Archivo de Imagen]. Recuperado de
+							https://vinkula.com/estructura-del-codigo-html5-anatomia-de-una-pagina-web/
+					</div>
+				</div>
+
+				<div class="video_main" style="margin-top: 20px;">
+					<h5>Introduccion a HTML</h5>
+					<iframe width="100%" height="360px" src="https://www.youtube.com/embed/fG7rCJRzZMs" frameborder="0"
+						allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					<div class="referencias_main" style="text-align: center;">
+						[Tu Area De Informatica]. (2016). Curso: Aprende HTML desde cero - 1. Introducción al HTML
+						Obtenido de: https://www.youtube.com/watch?v=fG7rCJRzZMs&feature=youtu.be
+					</div>
+				</div>
 				</article>
 			</section>
-			<aside>
-
+			<aside style="height: 2160px;">
 				<article class="tiwtter_main">
 					<a class="twitter-timeline" href="https://twitter.com/UniversidadUNAD?ref_src=twsrc%5Etfw">
 						Tweets by UniversidadUNAD</a>
@@ -153,5 +187,4 @@
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
 		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
 		crossorigin="anonymous"></script>
-
 	</html>
